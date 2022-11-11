@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    background: white;
+    padding-top: 50px;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header ul {
+    display: flex;
+    gap: 30px;
+    padding-top: 79px; 
+    padding-bottom: 38px;
+    
+}
+
+header ul a {
+    color: #8C8A8A;
+    font-size: 18px;
+    line-height: 21px;
+    transition: color 300ms;
+}
+
+header ul a:hover {
+    color: blue;
+}
+
+.block {
+    width: 100%;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.main-left {
+    background: #F0F0F0; 
+    width: 730px;
+    padding: 50px 95px 51px 40px;
+}
+
+.main-right {
+    background: #F0F0F0;
+    width: 350px;
+    padding: 50px 24px 159px 40px;
+}
+
+.main-box h3 {
+    color: #4581B7;
+    font-size: 20px;
+    line-height: 23px
+}
+
+.main-box p {
+    color: #808080;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 25px;
+}
+
+.main-right a {
+    color: #808080;
+    font-size: 16px;
+    line-height: 27px;
+    display: flex;
+    flex-direction: column;
+    transition: color 300ms ;
+} 
+
+.mail {
+    margin-top: 70px;
+}
+
+.tel {
+    margin-top: 50px;
+}
+
+.main-right a:hover {
+    color: red;
+}
+
+.footer-box {
+    background: #F0F0F0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    margin: 15px 0 15px 40px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 46px 40px 46px 0;
+}
+
+.footer-right h4 {
+    color: #808080;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer-call {
+    color: #808080;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    margin-top: 10px;
+    transition: color 300ms;
+}
+
+.footer-call:hover {
+    color: purple;
+}
